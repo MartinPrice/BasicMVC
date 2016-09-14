@@ -1,6 +1,4 @@
 <?php
-    // TODO - I'm not sure whether this is worth the performance hit !
-
     function controllerAutoload($controller_name) {
         if (file_exists("Controllers/".$controller_name.".php")) {
         require_once "Controllers/".$controller_name.".php";

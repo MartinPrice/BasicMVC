@@ -1,5 +1,4 @@
 <?php
-    // 
     class app {
         public function __construct() {
             require_once "Config/config.php";

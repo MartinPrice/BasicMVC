@@ -1,6 +1,5 @@
 <?php
-    // this bad boy provides the guts of it
-    //
+    // in routes.php you get the following two lines:
     // $route->add('/', 'landingController');
     // $route->process();
 
